@@ -4,10 +4,10 @@ COPY . /go/src/app
 
 WORKDIR /go/src/app
 
-RUN go mod init http_request
+RUN go mod init main.go
 
 RUN go test -v ./...
 
-RUN go build -o http_request .
+RUN go build -o main .
 
-CMD ["./http_request"]
+CMD ["./main"]
