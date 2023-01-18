@@ -8,4 +8,4 @@ see https://github.com/seferagic/cloud-computing-project/tree/main
 
 - docker run -p 8080:8080 my-go-app
 
-This is a demo push to dev
+This is a demo push to dev for the presenation.
