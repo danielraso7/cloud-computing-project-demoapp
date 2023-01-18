@@ -2,7 +2,8 @@ name: Merge Dev into Main every hour
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # - cron: '0 0 1 * *'   # runs every month on the first
+    - cron: '0 * * * *'     # runs every hour
 
 jobs:
   build:
