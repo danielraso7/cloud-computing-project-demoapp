@@ -1,3 +1,3 @@
-module main.go
+module github.com/tekton-demo
 
-go 1.19
+go 1.16
